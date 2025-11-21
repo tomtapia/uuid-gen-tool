@@ -8,6 +8,13 @@
 *.so
 *.dylib
 
+# Project-specific binaries
+uuid-gen
+uuid-gen-linux
+uuid-gen-mac
+uuid-gen.exe
+uuid-gen-*
+
 # Test binary, built with `go test -c`
 *.test
 
