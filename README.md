@@ -48,9 +48,59 @@ Run the program to generate a new UUID:
 ./uuid-gen
 ```
 
+### Command-line Options
+
+```bash
+uuid-gen [options]
+```
+
+**Options:**
+- `-h, --help` - Show help message with usage instructions
+- `-v, --version` - Show version information
+- `-n, --count N` - Generate N UUIDs (default: 1)
+- `-u, --uppercase` - Output UUIDs in uppercase
+- `-s, --simple` - Output UUIDs without hyphens (32 characters)
+
 ### Example output:
 ```
 f47ac10b-58cc-4372-a567-0e02b2c3d479
+```
+
+### Examples
+
+**Generate a single UUID (default):**
+```bash
+./uuid-gen
+# Output: 550e8400-e29b-41d4-a716-446655440000
+```
+
+**Generate multiple UUIDs:**
+```bash
+./uuid-gen -n 5
+# Output: 5 UUIDs, one per line
+```
+
+**Generate UUID in uppercase:**
+```bash
+./uuid-gen --uppercase
+# Output: 550E8400-E29B-41D4-A716-446655440000
+```
+
+**Generate UUID without hyphens:**
+```bash
+./uuid-gen --simple
+# Output: 550e8400e29b41d4a716446655440000
+```
+
+**Combine options:**
+```bash
+./uuid-gen -n 3 -u -s
+# Output: 3 uppercase UUIDs without hyphens
+```
+
+**Show help:**
+```bash
+./uuid-gen --help
 ```
 
 ### Usage in scripts
