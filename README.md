@@ -4,6 +4,7 @@
 [![Go Version](https://img.shields.io/badge/Go-1.25.3-00ADD8?logo=go)](https://go.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Go Report Card](https://goreportcard.com/badge/github.com/tomtapia/uuid-gen-tool)](https://goreportcard.com/report/github.com/tomtapia/uuid-gen-tool)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/tomtapia/uuid-gen-tool)
 
 A simple command-line tool written in Go to generate version 4 UUIDs (Universally Unique Identifiers).
 
